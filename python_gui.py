@@ -32,12 +32,12 @@ class Cell():
     def draw(self):
         """ order to the cell to draw its representation on the canvas """
         if self.master != None :
-            fill = Cell.FILLED_COLOR_BG
-            outline = Cell.FILLED_COLOR_BORDER
+            fill = Cell.FILLED_COLOR_BG="#96fffd"
+            outline = Cell.FILLED_COLOR_BORDER= "#96fffd"
 
             if not self.fill:
-                fill = Cell.EMPTY_COLOR_BG
-                outline = Cell.EMPTY_COLOR_BORDER
+                fill = Cell.EMPTY_COLOR_BG="#247e87"
+                outline = Cell.EMPTY_COLOR_BORDER= "#187c7a"
 
             xmin = self.abs * self.size
             xmax = xmin + self.size
